@@ -11,7 +11,7 @@ Created using only libraries found in Python3 stdlib.
 ### Usage Example:
 **NOTE:** This application strictly requires Python 3.6+
 ```
-python3 csvledger.py {~/path/to/your/csvfile.csv}
+$ python3 csvledger.py {~/path/to/your/csvfile.csv}
 {
     "account1": 56.35,
     "account2": -56.35
@@ -32,12 +32,12 @@ If the application is called with a date string argument, the calculations are o
 
 ```
 # Returns account balances as of 2018-09-12
-python3 csvledger.py {~/path/to/file.csv} 2018-09-12
+$ python3 csvledger.py {~/path/to/file.csv} 2018-09-12
 ```
 
 # Tests
 
 Inside the `csvledger` root directory, run:
 ```
-python3 -m unittest tests.test_calculation
+$ python3 -m unittest tests.test_calculation
 ```
